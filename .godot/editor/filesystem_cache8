@@ -1,0 +1,14 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1729665751
+anka.png::CompressedTexture2D::7319420730157514514::1726815413::1726815414::1::::<><>::
+GroundTile (1).png::CompressedTexture2D::4065290490023155635::1727853556::1727853556::1::::<><>::
+icon.svg::CompressedTexture2D::3178093334020134130::1726642364::1726642372::1::::<><>::
+Main.cs::CSharpScript::-1::1729236099::0::1::::<>Node2D<>::
+main.tscn::PackedScene::1886283595329408626::1729237212::0::1::::<><>::res://Main.cs<>uid://c5y7w84bc8s27::::res://player.tscn<>uid://bx6i0f6vwmaat::::res://GroundTile (1).png<>uid://c3neyvmlxmg3b::::res://pipe2.tscn<>uid://c5vrse147prmh::::res://pipe.tscn
+Pipe2.cs::CSharpScript::-1::1728632483::0::1::::<>Area2D<>::
+pipe2.tscn::PackedScene::6765252749137680257::1729237212::0::1::::<><>::res://Pipe2.cs<>uid://dkxeplu03qehx::::res://pipe.png
+Pipe.cs::CSharpScript::-1::1728632476::0::1::::<>Area2D<>::
+pipe.png::CompressedTexture2D::7908901440509517813::1729237159::1729237159::1::::<><>::
+pipe.tscn::PackedScene::6922923194149062011::1729237212::0::1::::<><>::uid://dkxeplu03qehx::::res://pipe.png<>res://Pipe.cs
+Player.cs::CSharpScript::-1::1729237965::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::6930035751978352518::1729237212::0::1::::<><>::res://Player.cs<>uid://dcjt14j6q6xa5::::res://anka.png

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qtjCcyx8H6YCLsNg3ZK0qRN/8dTcuDN93/EooagNXi/pa/QIWRulqCYraibIfLokJZ3EcIMZmt801USXGW8www==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\12ID0922\\OneDrive - Åmåls kommun\\Dokument\\flappy-bird\\Flappy Bird.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\12ID0922\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "C:\\Users\\12ID0922\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\12ID0922\\.nuget\\packages\\godotsharpeditor\\4.3.0\\godotsharpeditor.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

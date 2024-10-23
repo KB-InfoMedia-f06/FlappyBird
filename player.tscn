@@ -1,0 +1,164 @@
+[gd_scene load_steps=16 format=3 uid="uid://c5y7w84bc8s27"]
+
+[ext_resource type="Script" path="res://Player.cs" id="1_igcfv"]
+[ext_resource type="Texture2D" uid="uid://dcjt14j6q6xa5" path="res://anka.png" id="1_y0762"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3dv6f"]
+radius = 13.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pkr4d"]
+radius = 15.0
+height = 58.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_krfa0"]
+radius = 12.0
+height = 136.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o40hx"]
+radius = 30.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g10m7"]
+radius = 5.0
+height = 22.0
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_14703"]
+a = Vector2(-93, 11)
+b = Vector2(-73, 24)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_drvbe"]
+b = Vector2(-16, 11)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ap3fx"]
+a = Vector2(-62, 31)
+b = Vector2(-27, 35)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_v8o8r"]
+a = Vector2(28, 28)
+b = Vector2(7, 35)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_mlqd3"]
+a = Vector2(7, 35)
+b = Vector2(-12, 35)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_jlnfx"]
+a = Vector2(20, 2)
+b = Vector2(0, 8)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_yeipu"]
+a = Vector2(-49, -18)
+b = Vector2(-22, -21)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_4irlt"]
+b = Vector2(33, 5)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_igcfv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_y0762")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-81, -14)
+shape = SubResource("CircleShape2D_3dv6f")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(50, -20)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_pkr4d")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-19, 8)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_krfa0")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-19, 7)
+shape = SubResource("CircleShape2D_o40hx")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(83, -13)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_g10m7")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(12, 7)
+shape = SubResource("SegmentShape2D_14703")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(44, 17)
+shape = SubResource("SegmentShape2D_drvbe")
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("SegmentShape2D_ap3fx")
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("SegmentShape2D_v8o8r")
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("SegmentShape2D_mlqd3")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-69, -20)
+shape = SubResource("SegmentShape2D_jlnfx")
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("SegmentShape2D_yeipu")
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-11, -21)
+shape = SubResource("SegmentShape2D_4irlt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-81, -14)
+shape = SubResource("CircleShape2D_3dv6f")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(50, -20)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_pkr4d")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(-19, 8)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_krfa0")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(-19, 7)
+shape = SubResource("CircleShape2D_o40hx")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
+position = Vector2(83, -13)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_g10m7")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="."]
+position = Vector2(12, 7)
+shape = SubResource("SegmentShape2D_14703")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="."]
+position = Vector2(44, 17)
+shape = SubResource("SegmentShape2D_drvbe")
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="."]
+shape = SubResource("SegmentShape2D_ap3fx")
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="."]
+shape = SubResource("SegmentShape2D_v8o8r")
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="."]
+shape = SubResource("SegmentShape2D_mlqd3")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="."]
+position = Vector2(-69, -20)
+shape = SubResource("SegmentShape2D_jlnfx")
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="."]
+shape = SubResource("SegmentShape2D_yeipu")
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="."]
+position = Vector2(-11, -21)
+shape = SubResource("SegmentShape2D_4irlt")
+
+[connection signal="area_entered" from="Area2D" to="." method="collided"]
